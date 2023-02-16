@@ -20,17 +20,14 @@
 }
 body {
     color: var(--title-text-color);
-    /* background-color: var(--background-color); */
     font-family: roboto, sans-serif; 
 }
 a {
-    
     text-decoration: none;
 }
 .list {
     list-style: none;
 }
-/* logo-header */
 .logo-header{
     color: var(--primary-text-color);
     text-transform: uppercase;
@@ -43,7 +40,6 @@ a {
 .web{
     color: var(--logo-web);
 }
-/* ___________________________________________logo-footer */
 .logo-footer{
     text-transform: uppercase;
     font-family: raleway, sans-serif;
@@ -53,13 +49,10 @@ a {
     color: var(--wite-color-text);
     margin-bottom: 16px;
     display: flex;
-    
-    
 }
 .studio{
     color: var(--logo-footer-studio);
 }
-/*____________________________________________ site nav */
 .header{
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -94,7 +87,6 @@ a {
 .auth-nav .link{
     color: var(--title-text-color);
 }
-/*____________________________________________ address */
 .auth-nav{
     font-style: normal;
     font-size: 16px;
@@ -109,7 +101,6 @@ a {
 .address{
     
 }
-/*____________________________________________ hero */
 .hero{
     background: var(--primary-text-color);
     padding-top: 188px;
@@ -140,7 +131,6 @@ a {
     align-items: center;
     column-gap: 48px;
 }
-/*____________________________________________ section-specifics */
 .section-specifics{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -159,14 +149,12 @@ a {
 .transform{
     text-transform: capitalize;
 }
-/* ____________________________________________feature */
 .feature-list .title{
 color: var(--primary-text-color);
 }
 .feauture-item{
     width: calc((100% - 74px) / 4);
 }
-/* ==============================================1 */
 .feauture-item::before{
     display: block;
     content:"";
